@@ -1,6 +1,8 @@
 import wx
 from wx.lib.rcsizer import RowColSizer
-from utilities import *
+
+from managepersons.utilities import *
+
 
 ADD = wx.NewId()
 CANCEL = wx.NewId()
