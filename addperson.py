@@ -1,5 +1,5 @@
 import wx
-from wxPython.lib.rcsizer import RowColSizer
+from wx.lib.rcsizer import RowColSizer
 from utilities import *
 
 ADD = wx.NewId()
@@ -66,7 +66,7 @@ class addperson(wx.Dialog):
         boxb = wx.BoxSizer(wx.HORIZONTAL)
         boxb.Add(self.butsave, 0,
                  wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 0)
-        boxb.Add(50, 10, 0)
+        boxb.Add((50, 10), 0)
         boxb.Add(self.butcancel, 0,
                  wx.ALIGN_CENTER_HORIZONTAL | wx.ALIGN_CENTER_VERTICAL, 0)
         boxl.Add(boxb, row=5, col=2)
