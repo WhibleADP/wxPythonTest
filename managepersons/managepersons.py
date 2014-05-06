@@ -1,7 +1,9 @@
 import wx
-from addperson import addperson
-from utilities import *
 from wx.lib.printout import PrintTable
+
+from managepersons import addperson
+from utilities import *
+
 
 ADD = wx.NewId()
 EDIT = wx.NewId()
