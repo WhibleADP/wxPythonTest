@@ -1,7 +1,7 @@
 import wx
 from wx.lib.printout import PrintTable
 
-from managepersons import addperson
+from addperson import addperson
 from utilities import *
 
 

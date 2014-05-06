@@ -1,7 +1,7 @@
 import wx
 from wx.lib.rcsizer import RowColSizer
 
-from managepersons.utilities import *
+from utilities import *
 
 
 ADD = wx.NewId()
